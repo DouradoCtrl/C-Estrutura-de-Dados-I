@@ -18,5 +18,5 @@ int main () {
 
 //Ponteiros
 // *ptr = O apontado por, conteúdo do endereço da variável que ptr aponta
-// ptr = endereço da variável
-// &ptr = endereço do ptr
+// ptr = endereço da variável x
+// &ptr = endereço do próprio ponteiro
