@@ -13,7 +13,7 @@ void executa(int x, int *ptr)
 int main () {
     int x = 19;
     int *ptr;
-
+    
     ptr = &x;
     executa(x, ptr);
 
