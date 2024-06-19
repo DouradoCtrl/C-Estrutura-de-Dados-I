@@ -31,11 +31,9 @@ int Desempilhar () {
     }else {
         pilha.topo = pilha.topo - 1;
         elemento_desempilhado = pilha.dados[pilha.topo];
-        
 
         return elemento_desempilhado;
     }
-  
 }
 
 void Imprimir_pilha () {
@@ -44,7 +42,6 @@ void Imprimir_pilha () {
     for (i = pilha.ini; i < pilha.topo; i++) {
         printf("%d,", pilha.dados[i]);
     }
-   
 }
 
 void TopoDaLista() {
