@@ -39,7 +39,11 @@ int Desempilhar () {
 }
 
 void Imprimir_pilha () {
-
+    int i;
+    printf("Os valores da pilha são: ");
+    for (i = pilha.ini; i < pilha.topo; i++) {
+        printf("%d,", pilha.dados[i]);
+    }
    
 }
 
@@ -56,7 +60,8 @@ int main (void) {
 
 
     while(continuar == 1) {
-       printf("Voce pode adicionar até 5 números inteiros...\n\n"
+        system("clear");
+        printf("Voce pode adicionar até 5 números inteiros...\n\n"
                "-== PILHA OPCOES ==--\n"
                "1 - Adicionar item à pilha\n"
                "2 - Remover item do topo da pilha\n"
@@ -81,7 +86,7 @@ int main (void) {
                 TopoDaLista();
                 break;
             case 4:
-                
+                Imprimir_pilha();
                 break;
             case 5:
                 printf("\n\nPilha topo: %d\n\n", pilha.topo);
@@ -94,6 +99,7 @@ int main (void) {
 
         printf("\nDeseja continuar ? 1 = Sim e 0 = Nao: ");
         scanf("%d", &continuar);
+        getchar();
     }
     
     
