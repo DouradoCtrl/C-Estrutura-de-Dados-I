@@ -73,16 +73,14 @@ Uma variável do tipo inteira aponta pra um número inteiro na memória, já um 
 Porque se tentarmos alocar indiscriminadamente um endereço qualquer a um ponteiro, corremos o risco de estar manipulando uma área da memória que está sendo utilizada por outro programa ou até mesmo pelo sistema operacional, o que pode causar instabilidade no computador.
 
 ### 5. Crie um programa que leia uma variável e crie dois vetores dinâmicos, um com o tamanho lido e outro com o dobro desse tamanho. Preencha esses vetores respectivamente com potências de 2 e potências de 3.
-a) Crie uma variável inteira e dois ponteiros do tipo inteiro.
+a) Crie uma variável inteira e dois ponteiros do tipo inteiro.  
 b) Pergunte ao usuário o tamanho do vetor dinâmico e leia esse valor na variável
-inteira.
-c) Aloque dinamicamente os dois vetores usando a função malloc.
+inteira.  
+c) Aloque dinamicamente os dois vetores usando a função malloc.  
 d) Faça um laço de repetição para preencher o primeiro vetor com potências
-de 2.
-e) Faça um segundo laço de repetição para preencher o outro vetor com po-
-tências de 3.
-f ) Não se esqueça de usar a biblioteca math.h para poder usar o cálculo de
-potência (pow).
+de 2.  
+e) Faça um segundo laço de repetição para preencher o outro vetor com potências de 3.  
+f ) Não se esqueça de usar a biblioteca math.h para poder usar o cálculo de potência (pow).
 
 ```c
 #include <stdio.h>
