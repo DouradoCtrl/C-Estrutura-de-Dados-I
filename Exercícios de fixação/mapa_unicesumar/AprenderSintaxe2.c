@@ -27,7 +27,7 @@ void push(struct Pilha *p, int valor) {
     }
 }
 
-void imprimir(struct Pilha *p) {
+void imprimir(struct Pilha* p) {
     int i = 0;
     printf("Os dados da pilha são: ");
     for(i = 0; i <= p->topo; i++) {
