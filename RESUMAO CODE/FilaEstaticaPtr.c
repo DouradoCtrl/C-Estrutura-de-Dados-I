@@ -83,3 +83,5 @@ int main () {
 
     return 0;
 }
+
+//fazer typedef struct aluno adicionando e acessando os dados como se fosse na atividade de semáfaro
