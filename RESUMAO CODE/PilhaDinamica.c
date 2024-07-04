@@ -15,6 +15,7 @@ PILHA *p;
 int empilhar (int item){
     NO *ponteiro = (NO *)malloc(sizeof(NO));
     ponteiro->dado = item;
+    ponteiro->prox = NULL;
     ponteiro->prox = p->topo;
     p->topo = ponteiro;
 
