@@ -48,13 +48,21 @@ int desempilhar () {
 
 }
 
+//ver topo
+void vertopo() {
+    printf("O meu topo é :%d", pilha.topo);
+}
+
 int main () {
     int desempilhado;
     pilha.topo = 0;
     empilha(12);
     empilha(13);
     empilha(5);
+    empilha(6);
+    empilha(8);
 
+    vertopo();
     imprimir();
 
     desempilhado = desempilhar();

@@ -28,7 +28,7 @@ int desempilhar (struct tpilha *p) {
     }else {
         
         p->topo--;
-        return p->dados[p->topo];;
+        return p->dados[p->topo];
     }
 }
 
